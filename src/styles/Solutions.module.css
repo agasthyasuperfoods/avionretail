@@ -1,0 +1,156 @@
+.headerSection {
+  background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+  padding: 5rem 0 2rem 0;
+  text-align: center;
+}
+
+.headerSection h1 {
+  font-size: 3rem;
+  margin-bottom: 0.8rem;
+}
+
+.headerSection p {
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+}
+
+.navAnchors {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.anchorLink {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  padding: 0.6rem 1.5rem;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.anchorLink:hover {
+  background: rgba(93, 191, 26, 0.1);
+  border-color: var(--accent-primary);
+  color: var(--text-primary);
+  transform: translateY(-1px);
+}
+
+.categorySection {
+  border-bottom: 1px solid var(--border-color);
+  padding: 4rem 0;
+}
+
+.categorySection:last-of-type {
+  border-bottom: none;
+}
+
+.sectionHeading {
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+}
+
+.brandGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.brandCard {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  padding: 2rem;
+  transition: var(--transition-smooth);
+}
+
+.brandCard:hover {
+  border-color: rgba(93, 191, 26, 0.25);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.brandHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.brandTitle {
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  color: var(--green-dark);
+  background: linear-gradient(135deg, var(--green-dark), var(--green-primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.brandTagline {
+  color: var(--accent-gold);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.featuresList {
+  list-style: none;
+  margin: 1.5rem 0;
+}
+
+.featuresList li {
+  position: relative;
+  padding-left: 1.8rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.featuresList li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent-primary);
+  font-weight: 700;
+}
+
+.ctaSection {
+  background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-tertiary) 100%);
+  padding: 4.5rem 0;
+  text-align: center;
+}
+
+.ctaContent {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ctaContent h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.ctaContent p {
+  margin-bottom: 2rem;
+  font-size: 1.15rem;
+}
+
+@media (max-width: 968px) {
+  .brandGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+

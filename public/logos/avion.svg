@@ -1,0 +1,25 @@
+<svg viewBox="0 0 220 55" xmlns="http://www.w3.org/2000/svg">
+  <!-- The A letterform + diagonal slash, matching real logo -->
+  <g transform="translate(5, 3) scale(0.46)">
+    <!-- Left leg of A -->
+    <path d="M 10 90 L 48 8 L 68 8 L 30 90 Z" fill="#5DBF1A"/>
+    <!-- Right leg of A -->
+    <path d="M 60 90 L 76 90 L 68 65 Z" fill="#5DBF1A"/>
+    <!-- Diagonal slash line from bottom-left through A to top-right -->
+    <line x1="6" y1="90" x2="108" y2="4" stroke="#5DBF1A" stroke-width="6" stroke-linecap="round"/>
+    <!-- Gold leaf (left) -->
+    <ellipse cx="103" cy="8" rx="9" ry="5" fill="#C8A42A" transform="rotate(-30 103 8)"/>
+    <!-- Bright green leaf (middle) -->
+    <ellipse cx="112" cy="5" rx="9" ry="5" fill="#5DBF1A" transform="rotate(-10 112 5)"/>
+    <!-- Dark green leaf (right) -->
+    <ellipse cx="119" cy="10" rx="8" ry="4.5" fill="#2D6B18" transform="rotate(15 119 10)"/>
+  </g>
+
+  <!-- Brand name text -->
+  <text x="72" y="24" font-family="'Outfit', sans-serif" font-weight="800" font-size="17" fill="#f4f7f2" letter-spacing="1.5">AVION RETAIL</text>
+  <text x="72" y="37" font-family="'Outfit', sans-serif" font-weight="400" font-size="7.5" fill="#9aab96" letter-spacing="1.2">INDIA PVT LTD</text>
+
+  <!-- Tagline separator and URL -->
+  <line x1="72" y1="42" x2="210" y2="42" stroke="rgba(93,191,26,0.2)" stroke-width="0.8"/>
+  <text x="72" y="50" font-family="'Outfit', sans-serif" font-weight="400" font-size="7" fill="#5DBF1A" letter-spacing="0.8">www.avionretail.in</text>
+</svg>

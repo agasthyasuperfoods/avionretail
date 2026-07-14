@@ -1,0 +1,10 @@
+<svg viewBox="0 0 160 40" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="#ffffff" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="15" cy="20" r="10"/>
+    <path d="M15 13 C13 13, 11 16, 11 20 C11 24, 13 27, 15 27"/>
+    <path d="M15 13 C17 13, 19 16, 19 20 C19 24, 17 27, 15 27"/>
+    <circle cx="15" cy="18" r="1.5" fill="#5DBF1A"/>
+    <path d="M15 20 L17 21 L15 22 Z" fill="#5DBF1A"/>
+  </g>
+  <text x="35" y="27" font-family="'Outfit', sans-serif" font-weight="900" font-size="22" fill="#ffffff" letter-spacing="2">JOTUN</text>
+</svg>
