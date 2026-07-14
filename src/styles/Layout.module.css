@@ -235,6 +235,7 @@
   .footerGrid { grid-template-columns: 1fr 1fr; gap: 3rem; }
 }
 
+
 @media (max-width: 768px) {
   .mobileToggle { display: block; }
 
@@ -242,19 +243,42 @@
     position: fixed;
     top: 0;
     right: -100%;
-    width: 80%;
+    width: 100%;
     height: 100vh;
-    background: #ffffff;
+    background: var(--bg-primary);
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
+    align-items: center;
+    gap: 2.2rem;
     padding: 3rem;
-    box-shadow: -10px 0 40px rgba(0, 0, 0, 0.12);
     transition: var(--transition-smooth);
-    border-left: 1px solid var(--border-color);
+    z-index: 999;
   }
 
   .navLinksOpen { right: 0; }
+
+  .navItem a {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+
+  .navItem a::after {
+    display: none !important;
+  }
+
+  .navItemActive a {
+    color: var(--green-primary);
+    border-bottom: 3px solid var(--green-primary);
+    padding-bottom: 4px;
+  }
+
+  .contactBtn {
+    font-size: 1.05rem !important;
+    padding: 0.85rem 2.5rem !important;
+    margin-top: 1rem;
+    box-shadow: 0 6px 20px rgba(93, 191, 26, 0.25);
+  }
 
   .footerGrid { grid-template-columns: 1fr; gap: 2.5rem; }
 
