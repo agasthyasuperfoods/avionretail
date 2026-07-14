@@ -109,11 +109,56 @@
 }
 
 @media (max-width: 768px) {
+  .headerSection {
+    padding: 3.5rem 0 1.5rem 0;
+  }
+  .headerSection h1 {
+    font-size: 2.2rem;
+  }
+  .headerSection p {
+    font-size: 1.05rem;
+  }
+  .storyContent h3 {
+    font-size: 1.6rem;
+  }
+  .milestoneCard {
+    padding: 1rem;
+  }
+  .milestoneCard h3 {
+    font-size: 2.5rem;
+  }
+  .milestoneCard p {
+    font-size: 0.8rem;
+  }
+  .philosophyBox {
+    padding: 1.2rem 1.5rem;
+  }
   .mdCard {
     flex-direction: column;
     text-align: center;
     padding: 2rem;
+    gap: 1.5rem;
   }
 }
+
+@media (max-width: 576px) {
+  .milestonesSection :global(.grid-4) {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .milestonesSection :global(.grid-4) {
+    grid-template-columns: 1fr !important;
+  }
+  .mdInfo h3 {
+    font-size: 1.6rem;
+  }
+  .mdInfo p {
+    font-size: 0.95rem;
+  }
+}
+
 
 

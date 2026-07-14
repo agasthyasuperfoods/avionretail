@@ -153,4 +153,48 @@
   }
 }
 
+@media (max-width: 768px) {
+  .headerSection {
+    padding: 3.5rem 0 1.5rem 0;
+  }
+  .headerSection h1 {
+    font-size: 2.2rem;
+  }
+  .headerSection p {
+    font-size: 1.05rem;
+  }
+  .sectionHeading {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .brandCard {
+    padding: 1.5rem;
+  }
+  .brandTitle {
+    font-size: 1.4rem;
+  }
+  .ctaContent h2 {
+    font-size: 1.8rem;
+  }
+  .ctaContent p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navAnchors {
+    gap: 0.8rem;
+  }
+  .anchorLink {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+  .brandHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
+
+
 
