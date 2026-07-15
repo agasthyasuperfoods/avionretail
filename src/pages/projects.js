@@ -17,7 +17,7 @@ export default function Projects() {
       name: "SAS Crown", 
       floors: "60 Floors", 
       desc: "Hyderabad's tallest skyscraper, painted entirely using premium Jotun weather-protection coatings.", 
-      image: "/projects/sas_crown.png",
+      image: "/projects/sas_crown.jpg",
       category: "highrise",
       brandTag: "Jotun Paints",
       sourceLink: "https://sasinfra.com"
@@ -26,7 +26,7 @@ export default function Projects() {
       name: "The Trilight", 
       floors: "56 Floors", 
       desc: "A prestigious three-tower high-rise completed with Avion's luxury finishes.", 
-      image: "/projects/trilight.png",
+      image: "/projects/Trilight.jpg",
       category: "highrise",
       brandTag: "Jotun Paints",
       sourceLink: "https://thetrilight.com"
@@ -35,7 +35,7 @@ export default function Projects() {
       name: "Candeur Crescent", 
       floors: "50 Floors", 
       desc: "Soaring modern residential development featuring top-tier exterior paint coatings.", 
-      image: "/projects/crescent.png",
+      image: "/projects/Cresent Property Banner.jpg",
       category: "highrise",
       brandTag: "Jotun Paints",
       sourceLink: "https://candeurcrescent.com"
@@ -44,7 +44,7 @@ export default function Projects() {
       name: "Navanaami Megaleio", 
       floors: "50 Floors", 
       desc: "Iconic high-density twin residential towers executing Avion's premium materials with modern sky bridges.", 
-      image: "/projects/megalio.png",
+      image: "/projects/megaleio-ele.jpg",
       category: "highrise",
       brandTag: "Jotun & Gyproc",
       sourceLink: "https://navanaami.com/megaleio/"
@@ -53,7 +53,7 @@ export default function Projects() {
       name: "Candeur Lakescape", 
       floors: "48 Floors", 
       desc: "Waterfront luxury skyscraper development utilizing high-performance surface systems.", 
-      image: "/projects/lakescape.png",
+      image: "/projects/lakescape.webp",
       category: "highrise",
       brandTag: "Jotun Paints",
       sourceLink: "https://lakescapebycandeur.com"
@@ -76,20 +76,12 @@ export default function Projects() {
       brandTag: "Jotun Paints",
       sourceLink: "https://shangrilainfra.com"
     },
-    { 
-      name: "AVR Evania", 
-      floors: "40 Floors", 
-      desc: "State-of-the-art skyscraper utilizing Avion's premium building solution supply.", 
-      image: "/projects/evania.png",
-      category: "highrise",
-      brandTag: "Jotun Paints",
-      sourceLink: "https://avrdevelopers.com/projects/avr-evania/"
-    },
+
     { 
       name: "DSR Valar", 
       floors: "36 Floors", 
       desc: "Super-luxury residential space completed with zero project-grade compromises.", 
-      image: "/projects/dsr_valar.png",
+      image: "/projects/dsr_velar.jpg",
       category: "highrise",
       brandTag: "Jotun & Kohler",
       sourceLink: "https://dsrinfra.com"
@@ -125,7 +117,7 @@ export default function Projects() {
       name: "Courtyard Koncept Ambience", 
       floors: "Elite Living", 
       desc: "Landscaped premium development utilizing low-carbon Gyproc ceiling drywalls.", 
-      image: "/projects/courtyard_ambience.png",
+      image: "/projects/courtyard_ambience.jpg",
       category: "villas",
       brandTag: "Gyproc Drywalls",
       sourceLink: "https://konceptambience.com"
@@ -134,7 +126,7 @@ export default function Projects() {
       name: "Hill Crest by Pacifica", 
       floors: "Residential Highrise", 
       desc: "Commercial-residential development finished with durable exterior coatings.", 
-      image: "/projects/hillcrest.png",
+      image: "/projects/hillcrest.jpg",
       category: "highrise",
       brandTag: "Jotun Paints",
       sourceLink: "https://pacificahillcrest.co.in"
@@ -143,7 +135,7 @@ export default function Projects() {
       name: "Auro Pearl", 
       floors: "Commercial Towers", 
       desc: "Premium workspace skyscraper using industrial-grade Jotafloor coatings in car parks.", 
-      image: "/projects/auro_pearl.png",
+      image: "/projects/auro_pearl.jpg",
       category: "commercial",
       brandTag: "Jotafloor Coatings",
       sourceLink: "https://aurorealty.com"
@@ -152,7 +144,7 @@ export default function Projects() {
       name: "Fortune Sonthalia Sky Villas", 
       floors: "Luxury Villas", 
       desc: "Super-premium residential duplexes finished with top-tier designer paints and fittings.", 
-      image: "/projects/sky_villas.png",
+      image: "/projects/fortune_skyvilla.jpg",
       category: "villas",
       brandTag: "Kohler & Jotun",
       sourceLink: "https://sonthaliasf.com"
@@ -161,7 +153,7 @@ export default function Projects() {
       name: "Phoenix 285FD", 
       floors: "IT Tech Park", 
       desc: "Massive commercial office spaces featuring heavy-duty car park coatings and acoustic ceilings.", 
-      image: "/projects/phoenix_285.png",
+      image: "/projects/phoenix_285.jpg",
       category: "commercial",
       brandTag: "Jotafloor & Gyproc",
       sourceLink: "https://phoenixindia.co"
@@ -170,7 +162,7 @@ export default function Projects() {
       name: "Lisa Grove", 
       floors: "Boutique Villas", 
       desc: "Premium villa community utilizing high-end European wood flooring from Parador.", 
-      image: "/projects/lisa_grove.png",
+      image: "/projects/lisa_groove.jpg",
       category: "villas",
       brandTag: "Parador Flooring",
       sourceLink: "https://lansumproperties.com"
@@ -188,7 +180,7 @@ export default function Projects() {
       name: "Dukes Aika", 
       floors: "Prestige Villas", 
       desc: "Bespoke customized luxury villas finished with Kohler bathroom fittings.", 
-      image: "/projects/dukes_aika.png",
+      image: "/projects/dukes_aiko.jpg",
       category: "villas",
       brandTag: "Kohler",
       sourceLink: "https://dukesinfra.com"
