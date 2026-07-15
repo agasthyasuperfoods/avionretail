@@ -243,7 +243,7 @@ export default function Projects() {
                     <div 
                       className={styles.projectCardImage} 
                       style={{ 
-                        backgroundImage: `linear-gradient(to bottom, rgba(17, 26, 13, 0.1) 0%, rgba(17, 26, 13, 0.85) 100%), url(${project.image})` 
+                        backgroundImage: `url(${project.image})` 
                       }}
                     />
                   </div>
