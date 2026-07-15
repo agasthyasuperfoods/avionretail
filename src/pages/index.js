@@ -52,19 +52,19 @@ export default function Home() {
       name: "SAS Crown",
       height: "Hyderabad's Tallest - 60 Floors",
       detail: "Complete premium coatings by Jotun Paints",
-      image: "/projects/sas_crown.png",
+      image: "/projects/sas_crown.jpg",
     },
     {
       name: "The Trilight",
       height: "Luxury Living - 56 Floors",
       detail: "Ultra-durable skyscraper exterior coatings",
-      image: "/projects/trilight.png",
+      image: "/projects/Trilight.jpg",
     },
     {
       name: "Candeur Crescent",
       height: "Iconic Skyscraper - 50 Floors",
       detail: "Premium building solution application",
-      image: "/projects/crescent.png",
+      image: "/projects/Cresent Property Banner.jpg",
     },
   ];
 
