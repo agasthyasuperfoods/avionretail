@@ -35,7 +35,7 @@ export default function Projects() {
       name: "Candeur Crescent", 
       floors: "50 Floors", 
       desc: "Soaring modern residential development featuring top-tier exterior paint coatings.", 
-      image: "/projects/Cresent Property Banner.jpg",
+      image: "/projects/crescent_crescent.jpg",
       category: "highrise",
       brandTag: "Jotun Paints",
       sourceLink: "https://candeurcrescent.com"

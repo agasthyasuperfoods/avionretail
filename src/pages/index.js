@@ -64,7 +64,7 @@ export default function Home() {
       name: "Candeur Crescent",
       height: "Iconic Skyscraper - 50 Floors",
       detail: "Premium building solution application",
-      image: "/projects/Cresent Property Banner.jpg",
+      image: "/projects/crescent_crescent.jpg",
     },
   ];
 
