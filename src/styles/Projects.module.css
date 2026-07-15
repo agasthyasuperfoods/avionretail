@@ -94,21 +94,26 @@
 
 .cardImageWrapper {
   position: relative;
-  height: 220px;
+  width: 100%;
+  aspect-ratio: 16 / 10;
   overflow: hidden;
-  background: transparent;
+  background: var(--bg-tertiary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .projectCardImage {
   width: 100%;
   height: 100%;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
   transition: var(--transition-smooth);
 }
 
 .projectCard:hover .projectCardImage {
-  transform: none;
+  transform: scale(1.03);
 }
 
 .projectCardPlaceholder {
