@@ -66,16 +66,17 @@
 
 .brandCard {
   background: var(--bg-secondary);
-  border: 1px solid var(--border-color);
+  border: 1.5px solid rgba(93, 191, 26, 0.2);
   border-radius: 14px;
   padding: 2rem;
   transition: var(--transition-smooth);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
 }
 
 .brandCard:hover {
-  border-color: rgba(93, 191, 26, 0.25);
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
+  border-color: rgba(93, 191, 26, 0.4);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 36px rgba(93, 191, 26, 0.12);
 }
 
 .brandHeader {
@@ -86,13 +87,10 @@
 }
 
 .brandTitle {
-  font-size: 1.6rem;
-  font-weight: 800;
-  letter-spacing: 0.05em;
+  font-size: 1.8rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
   color: var(--green-dark);
-  background: linear-gradient(135deg, var(--green-dark), var(--green-primary));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .brandTagline {

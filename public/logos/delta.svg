@@ -1,7 +1,7 @@
 <svg viewBox="0 0 150 40" xmlns="http://www.w3.org/2000/svg">
-  <g fill="#ffffff">
+  <g fill="#0072C6">
     <path d="M15 5 L28 28 L2 28 Z M15 11 L6 26 L24 26 Z" opacity="0.8"/>
     <path d="M12 20 C14 18, 18 18, 20 20 L22 18 C19 15, 15 15, 12 17 Z"/>
   </g>
-  <text x="36" y="27" font-family="'Outfit', sans-serif" font-weight="800" font-size="22" fill="#ffffff" letter-spacing="1.5">DELTA</text>
+  <text x="36" y="27" font-family="'Outfit', sans-serif" font-weight="800" font-size="22" fill="#1a1a1a" letter-spacing="1.5">DELTA</text>
 </svg>
